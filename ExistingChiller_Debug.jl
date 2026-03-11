@@ -14,9 +14,9 @@ post = Dict()
 post["Site"] = Dict()
 
 # Scenario switches
-backup_sys_capex = false
+backup_sys_capex = true
 
-results_path = joinpath(dir, "results", "results_json")
+results_path = joinpath(dir, "results")
 posts_path = joinpath(dir, "data")
 
 post["Site"]["latitude"] = 33.457466
@@ -48,7 +48,7 @@ post["ElectricLoad"]["year"] = 2017
 # GHP:
 post["GHP"] = Dict()
 #post["GHP"]["max_ton"] = max_ton
-#post["GHP"]["require_ghp_purchase"] = 1
+post["GHP"]["require_ghp_purchase"] = 1
 #post["GHP"]["heatpump_capacity_sizing_factor_on_peak_load"] = 1.0
 
 ghpghx_inputs = Dict()
