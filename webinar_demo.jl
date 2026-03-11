@@ -14,8 +14,7 @@ results_path = joinpath(dir, "results")
 
 file = "Amanda_demo.json"
 
-post = JSON.parsefile("$posts_path/$file")
-post_REopt = REoptInputs(Scenario(post))
+post_REopt = JSON.parsefile("$posts_path/$file")
 
 m1 = Model(optimizer_with_attributes(HiGHS.Optimizer, "output_flag" => false, "log_to_console" => false))
 m2 = Model(optimizer_with_attributes(HiGHS.Optimizer, "output_flag" => false, "log_to_console" => false))

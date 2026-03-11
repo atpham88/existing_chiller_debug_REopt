@@ -1,5 +1,4 @@
 {
-
     "Site": {
         "latitude": 39.74001,
         "longitude": -104.99202,
@@ -34,7 +33,7 @@
         "doe_reference_name": "LargeOffice"
     },
     "Financial": {
-        "analysis_years": 30.0
+        "analysis_years": 30
     },
     "ExistingBoiler": {
         "fuel_type": "natural_gas",
