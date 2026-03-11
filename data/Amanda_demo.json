@@ -38,7 +38,11 @@
     "ExistingBoiler": {
         "fuel_type": "natural_gas",
         "efficiency": 0.7,
-        "fuel_cost_per_mmbtu": 18.0
+        "fuel_cost_per_mmbtu": 18.0,
+        "installed_cost_per_mmbtu_per_hour": 56000
+    },
+    "ExistingChiller": {
+        "installed_cost_per_ton": 1000
     },
     "Generator": {
         "max_kw": 0,
