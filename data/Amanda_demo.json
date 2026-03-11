@@ -58,7 +58,7 @@
                 "heat_pump_configuration": "WSHP"
             }
         ],
-        "avoided_capex_by_ghp_present_value": 850000.0,
+        "avoided_capex_by_ghp_present_value": 0.0,
         "om_cost_per_sqft_year": 0.0,
         "installed_cost_building_hydronic_loop_per_sqft": 0.0,
         "installed_cost_heatpump_per_ton": 1904.0
